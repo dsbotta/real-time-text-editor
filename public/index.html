@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+		<title>Code Share</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<!-- <div id="app-external-wrapper">
+			<div id="app-wrapper"> -->
+				<div class="users-container">
+					<h3 class="users-title">Users Connected</h3>
+					<ul id="users">
+					</ul>
+				</div>
+				<div class="text-container">
+					<div>
+						<h1 id="title">Code Share</h1>
+						<h4>Choose Environment</h4>
+						<select id="language-select" class="form-control">
+						  <option value="html">HTML</option>
+						  <option value="css">CSS</option>
+						  <option value="javascript">JavaScript</option>
+						  <option value="php">PHP</option>
+						  <option value="json">JSON</option>
+						  <!-- <option value="xquery">jQuery</option> -->
+						  <option value="xml">XML/Plain Text</option>
+						</select>
+					</div>
+					<div id="content-editor"></div>
+				</div>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.2/ace.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "real_time_text_editor",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Botta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.0.48",
+    "socket.io": "^1.3.7"
+  }
+}
